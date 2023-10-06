@@ -1,4 +1,5 @@
 body {
+    background-color: pink ;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -10,6 +11,11 @@ header {
     text-align: center;
     padding: 20px;
 }
+.text-center
+{
+    text-align: center;
+}
+
 .textojustificado
 {
     text-align: justify;
@@ -38,4 +44,53 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
+}
+
+.Container{
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: auto;
+    justify-content: space-between;
+}
+.imgt
+{
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    display: block;
+    margin: 0 auto;
+}
+
+.circle{
+
+    background-color: transparent;
+    border: 3px solid palevioletred;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    
+    
+}
+
+.card{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: -7px -7px 20px rgb(0,0,0,0.2),
+                -7px -7px 20px rgb(0,0,0,0.2)
+}
+
+.testimonials{
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
